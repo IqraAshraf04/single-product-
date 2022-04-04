@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Single product page</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .home ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: rgb(14, 180, 245);
+            color: white
+        }
+
+        .home ul li {
+            list-style: none;
+            margin: 10px;
+
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .right {
+            background-image: url(nike.jpg.jpg);
+            background-size: cover;
+            height: 93.7vh;
+            width: 50%;
+            background-position: center;
+            
+
+        }
+
+        .left {
+            background-color: rgb(70, 187, 255);
+            width: 50%;
+            height: 93.7vh;
+
+        }
+
+        .nike {
+            padding: 50px;
+        }
+
+        .nike h1 {
+            font-size: 37px;
+            margin-top: 30px;
+        }
+
+        .nike h2 {
+            margin-top: 30px;
+        }
+
+        .nike p {
+            margin-top: 30px;
+            font-size: 19px;
+        }
+
+        .nike h3 {
+            margin-top: 30px;
+            font-size: 25px;
+        }
+
+
+
+        .nike button {
+            padding: 5px 15px;
+            background-color: red;
+            color: white;
+        }
+
+        .ColorLi {
+            width: 50%;
+            height: 30px;
+             margin-top: 20px; 
+            /* background-color: blue; */
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .ColorLi li {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: yellow;
+            list-style: none;
+        }
+
+        .ColorLi li:nth-child(1) {
+            background-color: pink;
+        }
+
+        .ColorLi li:nth-child(2) {
+            background-color: red;
+        }
+
+        .ColorLi li:nth-child(3) {
+            background-color: brown;
+        }
+
+        .ColorLi li:nth-child(4) {
+            background-color: green;
+        }
+        .logo{
+            
+        }
+    </style>
+    <div class="home">
+        <ul>
+            <li>Home</li>
+            <li>All Products</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Sign Up</li>
+            <li>Register</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="nike">
+                <h1>NIKE ZOOMFLY SP FAST <BUtton>NEW</BUtton></h1>
+                <H2>MINT GREY</H2>
+                <P>The Nike Zoom Fly SP Fast Unisex Runnung Shoe is designed to meet the <br> demands of your toughtest
+                    tempo runs, long runs and race day with a responsive <br> construction that turns the pressure of
+                    each stride into energy returns for the next.<br>This special edition of the racer updates the
+                    lightweight support system, and <br>features design details inspired by the historic Breaking2
+                    attemp.</P>
+                <h3>color</h3>
+                <ul class="ColorLi">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="logo">
+
+            </div>
+            <center><h1>NIKE ZOOMFLY SP FAST</h1>
+            <h4 style="margin-left: 300px;">Running Collection</h4></center>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
